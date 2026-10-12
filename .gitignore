@@ -1,0 +1,20 @@
+# Credentials & Environment
+.env
+*.pem
+.vault_pass
+
+# OpenTofu / Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.auto.tfvars
+secrets.auto.tfvars
+
+# Packer
+packer_cache/
+crash.log
+*.pkrvars.hcl
+
+# Ansible
+*.retry
